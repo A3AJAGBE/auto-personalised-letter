@@ -2,6 +2,6 @@
 
 
 ## Project 22 - Auto Personalised Letter
-Easily for bulk letters with this appliction. To test delete the files in complete/congratulatory_letters and complete/disqualified_letters
+Easily format bulk letters with this appliction. To test, delete the files in complete/congratulatory_letters and complete/disqualified_letters
 
-![Demo]()
+![Demo](https://github.com/A3AJAGBE/auto-personalised-letter/blob/main/auto_letter.gif)
