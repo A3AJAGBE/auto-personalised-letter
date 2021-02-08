@@ -1,4 +1,3 @@
-"""An application that personalized letter to manual formatting of a large bulk"""
 PLACEHOLDER = "[name]"
 
 # Get the names of those that qualified
@@ -12,5 +11,7 @@ with open("letter_templates/congratulation_template.txt") as template_file:
     for name in qualified_names:
         name = name.strip()
         add_names = open_template.replace(PLACEHOLDER, name)
-        print(add_names)
+        # Create the personalised letters
+        with open(f"complete/congratulatory_letters/{name}_letter.txt", mode="w") as format_letter:
+            format_letter.write(add_names)
 
